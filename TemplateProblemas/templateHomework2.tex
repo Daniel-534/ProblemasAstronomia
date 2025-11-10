@@ -1,0 +1,63 @@
+\documentclass[12pt]{article}
+
+% Paquetes esenciales
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage{lastpage}
+\usepackage{datetime2}
+
+% Configuración de márgenes
+\geometry{a4paper, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+
+% Formato de secciones
+\titleformat{\section}{\large\bfseries}{\thesection.}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{1em}{}
+
+% Encabezado y pie de página
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Tarea de Geometría}
+\lhead{Universidad de Antioquia}
+\rfoot{Página \thepage\ de \pageref{LastPage}}
+\cfoot{\small \today}
+
+% Interlineado
+\onehalfspacing
+
+% Información del autor
+\newcommand{\nombre}{Daniel Soto}
+\newcommand{\universidad}{Universidad de Antioquia}
+\newcommand{\asignatura}{Geometría}
+\newcommand{\fechahoy}{\today}
+
+\begin{document}
+
+% Portada (opcional, integrada en la primera página)
+\begin{center}
+    {\LARGE \textbf{\asignatura}} \\[0.5em]
+        {\large \universidad} \\[0.3em]
+            {\large Facultad de Ciencias Exactas y Naturales} \\[1em]
+                {\large \nombre} \\[0.3em]
+                    {\small \fechahoy}
+                    \end{center}
+
+                    \vspace{1.5em}
+
+                    % Comienza el contenido de la tarea
+                    \section*{Problema 1}
+                    Escribe aquí el enunciado y tu solución. Puedes usar ecuaciones como:
+                    \[
+                    \int_a^b f(x)\,dx = F(b) - F(a)
+                    \]
+
+                    \section*{Problema 2}
+                    Continúa con los demás ejercicios...
+
+                    % Si deseas numerar los problemas, usa \section en lugar de \section*
+
+                    \end{document}

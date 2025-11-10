@@ -1,0 +1,68 @@
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amssymb}
+\usepackage[most]{tcolorbox}
+
+% Crear un contador para los problemas
+\newcounter{problema}
+
+% Definir un nuevo entorno "problema" basado en tcolorbox
+\newtcolorbox[use counter=problema]{problema}[1][]{%
+    colback=gray!15,
+        colframe=gray!60,
+            fonttitle=\bfseries,
+                title={Problema~\theproblema:},
+                    boxrule=0.5mm,
+                        arc=3mm,
+                            boxsep=5pt,
+                                left=8pt,
+                                    right=8pt,
+                                        top=6pt,
+                                            bottom=6pt,
+                                                #1 % permite opciones adicionales si se desean
+                                                }
+
+                                                % Definir un nuevo entorno "enunciado" con colores más oscuros
+                                                \newtcolorbox{enunciado}[1][]{%
+                                                    colback=gray!30, % Fondo más oscuro (30% de gris en lugar de 15%)
+                                                        colframe=gray!80, % Borde más oscuro (80% de gris en lugar de 60%)
+                                                            fonttitle=\bfseries,
+                                                                title={Enunciado:}, % Título personalizado
+                                                                    boxrule=0.5mm,
+                                                                        arc=3mm,
+                                                                            boxsep=5pt,
+                                                                                left=8pt,
+                                                                                    right=8pt,
+                                                                                        top=6pt,
+                                                                                            bottom=6pt,
+                                                                                                #1 % permite opciones adicionales si se desean
+                                                                                                }
+
+                                                                                                \begin{document}
+
+                                                                                                % Ejemplo de uso del entorno "enunciado"
+                                                                                                \begin{enunciado}
+                                                                                                    Este es un enunciado general que introduce un tema o contexto antes de los problemas.
+                                                                                                    \end{enunciado}
+
+                                                                                                    \begin{problema}
+                                                                                                        Evalúe las siguientes integrales indefinidas:
+                                                                                                            \begin{enumerate}
+                                                                                                                    \item $\displaystyle \int x^2 \, dx$
+                                                                                                                            \item $\displaystyle \int \sin(x) \, dx$
+                                                                                                                                    \item $\displaystyle \int \frac{1}{x} \, dx$
+                                                                                                                                            \item $\displaystyle \int e^{2x} \, dx$
+                                                                                                                                                \end{enumerate}
+                                                                                                                                                \end{problema}
+
+                                                                                                                                                \begin{problema}
+                                                                                                                                                    Calcule las siguientes integrales definidas:
+                                                                                                                                                        \begin{enumerate}
+                                                                                                                                                                \item $\displaystyle \int_0^1 x^3 \, dx$
+                                                                                                                                                                        \item $\displaystyle \int_{-\pi}^{\pi} \cos(x) \, dx$
+                                                                                                                                                                            \end{enumerate}
+                                                                                                                                                                            \end{problema}
+
+                                                                                                                                                                            \end{document}

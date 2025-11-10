@@ -1,0 +1,72 @@
+\documentclass[a4paper]{article}
+
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage[margin=2cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{enumerate}
+\usepackage[shortlabels]{enumitem}
+\usepackage{parskip}
+\usepackage[most]{tcolorbox}
+\usepackage[hidelinks]{hyperref}
+\usepackage{float}
+
+
+% cabecera
+\pagestyle{fancy}
+\fancyhead[l]{Daniel Soto}
+\fancyhead[c]{Problemas de Astronomía \#1}
+\fancyhead[r]{\today}
+\fancyfoot[c]{\thepage}
+\renewcommand{\headrulewidth}{0.2pt} % linea horizontal
+
+\newcounter{problema}
+
+\newtcolorbox[use counter=problema]{problema}[1][]{%
+    colback=gray!15,
+    colframe=gray!60,
+    fonttitle=\bfseries,
+    title={Problema~\theproblema:},
+    boxrule=0.5mm,
+    arc=3mm,
+    boxsep=5pt,
+    left=8pt,
+    right=8pt,
+    top=6pt,
+    bottom=6pt,
+    #1
+}
+
+
+\begin{document}
+
+\begin{problema}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{TidalForce.png}
+        \caption{Fuerza de marea entre la tierra y la luna}
+        \label{fig:1}
+    \end{figure}
+
+    Una fuerza de marea es una diferencia en la fuerza de gravedad entre dos puntos, como en la Figura \ref{fig:1}
+
+    
+    \begin{equation}
+    a = \frac{2GMd}{R^3}
+    \label{eq:1}
+    \end{equation}
+
+    \begin{enumerate}
+        \item La ecuación \ref{eq:1} nos permite calcular la aceleraciòn de marea $a$, através de un
+        cuerpo de longitud $d$
+    \end{enumerate}
+    
+    La referencia al libro es la siguiente \cite{algebra2}
+\end{problema}
+
+\bibliographystyle{plainurl}
+\bibliography{bibliografia} % Nombre del .bib
+
+\end{document}
