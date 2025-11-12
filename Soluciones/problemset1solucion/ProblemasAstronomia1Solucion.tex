@@ -1,0 +1,177 @@
+\documentclass[a4paper]{article}
+
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage[margin=2cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{enumerate}
+\usepackage[shortlabels]{enumitem}
+\usepackage{parskip}
+\usepackage[most]{tcolorbox}
+\usepackage[hidelinks]{hyperref}
+\usepackage{float}
+\usepackage{array}
+
+% cabecera
+\pagestyle{fancy}
+\fancyhead[l]{Daniel Soto}
+\fancyhead[c]{Problemas de Astronomía \#1}
+\fancyhead[r]{\today}
+\fancyfoot[c]{\thepage}
+\renewcommand{\headrulewidth}{0.2pt} % linea horizontal
+
+%% Definicion de comandos para formato de unidades fisicas %%
+\newcommand{\m}{\text{m}}
+\newcommand{\cm}{\text{cm}}
+\newcommand{\km}{\text{km}}
+\newcommand{\s}{\text{s}}
+\newcommand{\N}{\text{N}}
+\newcommand{\g}{\text{g}}
+\newcommand{\kg}{\text{kg}}
+\newcommand{\Msolar}{\text{M}_\odot}
+\newcommand{\Mterrestre}{\text{\text{M}_\oplus}}
+\newcommand{\AU}{\text{AU}}
+\newcommand{\ly}{\text{ly}}
+
+\newcounter{problema}
+
+\newtcolorbox[use counter=problema]{problema}[1][]{%
+    colback=gray!15,
+    colframe=gray!60,
+    fonttitle=\bfseries,
+    title={Problema~\theproblema:},
+    boxrule=0.5mm,
+    arc=3mm,
+    boxsep=5pt,
+    left=8pt,
+    right=8pt,
+    top=6pt,
+    bottom=6pt,
+    #1
+}
+
+
+\begin{document}
+
+\begin{problema}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{TidalForce.png}
+        \caption{Fuerza de marea entre la tierra y la luna}
+        \label{fig:1}
+    \end{figure}
+
+    Una fuerza de marea es una diferencia en la intensidad de la gravedad entre dos puntos.
+    El campo gravitacional de la luna produce una fuerza de marea a lo largo del diámetro de la Tierra, 
+    lo que causa que la Tierra se deforme. También generan mareas de varios metros en la Tierra sólida, 
+    y mareas aún más grandes en los océanos líquidos. La Figura \ref{fig:1} muestra una idea de la situación.
+
+    Un ser humano cayendo en un agujero negro también experimentará fuerzas de marea. 
+    ¡En la mayoría de los casos estas serán letales! La diferencia en la fuerza gravitacional 
+    entre la cabeza y los pies podría ser tan intensa que una persona literalmente sería separada por tracción. 
+    Algunos físicos han llamado a este proceso ¡\textit{espaguetificación}! \cite{algebra2}
+
+    
+    \begin{equation}
+    a = \frac{2GMd}{R^3}
+    \label{eq:1}
+    \end{equation}
+
+    \begin{enumerate}
+        \item La ecuación \ref{eq:1} nos permite calcular la aceleración de marea $a$, através de un
+        cuerpo de longitud $d$. La aceleración de marea entre tu cabeza y tus pies está dada por la fórmula \ref{eq:1}. 
+        Para $M = 5.9\times 10^{27} \text{ g}$ (masa de la tierra), $R=6.4\times 10^8 \text{cm}$ (radio de la tierra) y
+        $G=6.67\times 10^{-8} \text{ dyn} \cdot \text{cm}^2/\text{gm}^2$, calcula la aceleración de marea, $a$, 
+        si una altura humana típica es $d=200\text{ cm}$.
+        \item ¿Cuál es la aceleración de marea a través del diámetro completo de la Tierra?
+        \item Un agujero negro de masa estelar tiene la masa del sol $(1.9\times 10^{33}\text{ g)}$, 
+        y un radio de $2.9 \text{km}$.
+        \begin{enumerate}
+            \item A una distancia de $100km$, ¿cuál sería la aceleración de marea através de un humano para $d=200cm$
+            \item Si la aceleraciòn de gravedad en la superficie de la tierra es $980 	\text{cm/s^2}$, 
+            ¿sería espaguetificado el desafortunado viajero humano cerca de un agujero negro de masa estelar?
+        \end{enumerate}
+        \item Un agujero negro supermasivo tiene $100$ millones de veces la masa del sol, y un radio de $295$ millones de kilómetros.
+        ¿Cuál sería la aceleración de marea a través de un humano con $d=2\text{m}$, a una distancia de $100\text{km}$ desde el horizonte 
+        de eventos del agujero negro supermasivo?
+        \item En qué agujero negro podría entrar un humano sin ser espaguetificado?
+    \end{enumerate}
+    
+\end{problema} [1.2.2]
+
+
+\begin{problema}
+    Aunque solo existen una docena de constantes físicas fundamentales de la naturalez,
+    estas se pueden combinar para definir muchas otras constantes básicas en física, 
+    química y astronomía.
+
+    \begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+    Símbolo & Nombre & Valor \\
+    \hline
+    $c$ & Velocidad de la Luz & $2.9979\times 10^{10} \text{ cm/s}$\\
+    \hline
+    $h$ & Constante de Planck & $6.6262\times 10^{-27} \text{ erg}\cdot \text{s}$\\
+    \hline
+    $m$ & Masa del Electrón & $9.1095\times 10^{-28} \text{ g}$\\
+    \hline
+    $e$ & Carga del Electrón & $4.80325 \times 10^{-10} \text{esu}$\\
+    \hline
+    $G$ & Constante de Gravitación & $6.6732 \times 10^{-8} \text{dyn} \cdot \text{cm}^2 \text{gm}^{-2}$\\
+    \hline
+    $M$ & Masa del Protón & $1.6726 \times 10^{-24} \text{g}$\\
+    \hline
+    \end{tabular}
+    \caption{Constantes físicas}
+    \label{tab:1}
+    \end{table}
+    En este ejercicio, calcularás algunas de estas constantes \textit{secundarias} con una precisión 
+    de tres cifras significativas utilizando una calculadora o programación y los valores definidos 
+    en la tabla \ref{tab:1}.
+
+    \begin{enumerate}
+        \item Constante de entropía de agujero negro $$\frac{c^3}{2hG}$$
+        \item Constante de radiación gravitacional $$\frac{32 G^5}{5 c^{10}}$$
+        \item Constante de Thomas-Fermi $$\frac{324}{175} \left(\frac{4}{9\pi}\right)^{2/3}$$
+        \item Sección transversal de dispersión de Thompson $$\frac{8 \pi}{3} \left(\frac{e^2}{mc^2}\right)^2$$
+        \item Límite de Stark $$\frac{1}{M^5} \left(\frac{4 \pi^2 e^2 m}{h^2}\right)^2$$
+        \item Constante de radiación de Bremstrahlung $$\frac{32 \pi^2 e^6}{3\sqrt{2\pi}m^3c}$$
+        \item Constante de Fotoionización $$\frac{32 \pi^2 e^6 (2\pi^2 e^4 m)}{3^{3/2} h^3}$$
+    \end{enumerate}
+\end{problema} [1.2.4]
+
+\begin{problema}
+    El $19$ de Julio de $1969$, el Módulo de Servicio y Comando Apollo-11 y el Módulo Lunar Eagle entraron en órbita lunar.
+    \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{moon.png}
+    \label{fig:2}
+    \end{figure}
+    El tiempo necesario para completar una vuelta completa en la órbita se llama período orbital, 
+    que en este caso fue de $2$ horas, a una distancia de $1.737$ km desde el centro de la Luna.
+
+    ¡Crea o no lo creas, puedes usar estas dos piezas de información para determinar la masa de la Luna!
+    Así es como se hace:
+
+    \begin{enumerate}
+        \item Suponga que el Apollo-11 entró en una órbita circular, y que la aceleración gravitacional hacia
+        adentro ejercida por la Luna sobre la cápsula, $F_g$, equilibra exactamente la aeleración centrífuga
+        hacia afuera, $F_c$. Resuelva $F_c=F_g$ para encontrar la masa de la Luna, $M$, en términos de $V$, $R$
+        y la constante gravitacional $G$, dado que:
+        $$F_g = \frac{GMm}{R^2}\quad\quad F_c = \frac{mV^2}{R}$$
+        \item Usando el hecho que para el movimiento circular, $$V = \frac{2\pi R}{T}$$ reexprese su respuesta
+        al problema 1 en términos de $R,T$ y $M$.
+        \item Dado que $G=6.67\times 10^{-11} \text{ m}^3 \text{kg}^{-1} \text{s}^{-2}$, $R=1.737 \text{ km}$ 
+        y $T=2\text{ h}$, calcule la masa de la Luna, $M$, en kilogramos.
+        \item La masa de la Tierra es $M = 5.97\times 10^{24} \text{kg}$. ¿Cuál es la razón de la masa de la luna,
+        derivada del problema 3, respecto a la pasa de la tierra?
+    \end{enumerate}
+\end{problema}[1.4.1]
+\bibliographystyle{plainurl}
+\bibliography{bibliografia} % Nombre del .bib
+
+\end{document}
