@@ -21,6 +21,20 @@
 \fancyfoot[c]{\thepage}
 \renewcommand{\headrulewidth}{0.2pt} % linea horizontal
 
+%% Definicion de comandos para formato de unidades fisicas %%
+\newcommand{\m}{\text{m}}
+\newcommand{\cm}{\text{cm}}
+\newcommand{\km}{\text{km}}
+\newcommand{\s}{\text{s}}
+\newcommand{\N}{\text{N}}
+\newcommand{\g}{\text{g}}
+\newcommand{\kg}{\text{kg}}
+\newcommand{\Msolar}{\text{M}_\odot}
+\newcommand{\Mterrestre}{\text{\text{M}_\oplus}}
+\newcommand{\AU}{\text{AU}}
+\newcommand{\ly}{\text{ly}}
+
+
 \newcounter{problema}
 
 \newtcolorbox[use counter=problema]{problema}[1][]{%
@@ -64,6 +78,37 @@
     \end{enumerate}
     
     La referencia al libro es la siguiente \cite{algebra2}
+\end{problema}
+
+
+
+\begin{problema}
+    Aunque solo existen una docena de constantes físicas fundamentales de la naturalez,
+    estas se pueden combinar para definir muchas otras constantes básicas en física, 
+    química y astronomía.
+
+    \begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+    Símbolo & Nombre & Valor \\
+    \hline
+    $c$ & Velocidad de la Luz & $2.9979\times 10^{10} \text{ cm/s}$\\
+    \hline
+    $h$ & Constante de Planck & $6.6262\times 10^{-27} \text{ erg}\cdot \text{s}$\\
+    \hline
+    $m$ & Masa del Electrón & $9.1095\times 10^{-28} \text{ g}$\\
+    \hline
+    $e$ & Carga del Electrón & $4.80325 \times 10^{-10} \text{esu}$\\
+    \hline
+    $G$ & Constante de Gravitación & $6.6732 \times 10^{-8} \text{dyn} \cdot \text{cm}^2 \text{gm}^{-2}$\\
+    \hline
+    $M$ & Masa del Protón & $1.6726 \times 10^{-24} \text{g}$\\
+    \hline
+    \end{tabular}
+    \caption{Constantes físicas}
+    \label{tab:1}
+    \end{table}
 \end{problema}
 
 \bibliographystyle{plainurl}

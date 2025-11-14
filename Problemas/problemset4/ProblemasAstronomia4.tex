@@ -1,0 +1,224 @@
+\documentclass[a4paper]{article}
+
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage[margin=2cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{enumerate}
+\usepackage[shortlabels]{enumitem}
+\usepackage{parskip}
+\usepackage[most]{tcolorbox}
+\usepackage[hidelinks]{hyperref}
+\usepackage{float}
+
+
+% cabecera
+\pagestyle{fancy}
+\fancyhead[l]{Daniel Soto}
+\fancyhead[c]{Problemas de Astronomía \#4}
+\fancyhead[r]{\today}
+\fancyfoot[c]{\thepage}
+\renewcommand{\headrulewidth}{0.2pt} % linea horizontal
+
+%% Definicion de comandos para formato de unidades fisicas %%
+\newcommand{\m}{\text{m}}
+\newcommand{\cm}{\text{cm}}
+\newcommand{\km}{\text{km}}
+\newcommand{\s}{\text{s}}
+\newcommand{\N}{\text{N}}
+\newcommand{\g}{\text{g}}
+\newcommand{\kg}{\text{kg}}
+\newcommand{\Msolar}{\text{M}_\odot}
+\newcommand{\Mterrestre}{\text{\text{M}_\oplus}}
+\newcommand{\AU}{\text{AU}}
+\newcommand{\ly}{\text{ly}}
+\newcommand{\J}{\text{J}}
+
+\newcounter{problema}
+
+\newtcolorbox[use counter=problema]{problema}[1][]{%
+    colback=gray!15,
+    colframe=gray!60,
+    fonttitle=\bfseries,
+    title={Problema~\theproblema:},
+    boxrule=0.5mm,
+    arc=3mm,
+    boxsep=5pt,
+    left=8pt,
+    right=8pt,
+    top=6pt,
+    bottom=6pt,
+    #1
+}
+
+
+\begin{document}
+
+\begin{problema}
+    
+
+La energía potencial es la energía que posee un cuerpo debido a su ubicación en el espacio, mientras que la energía cinética es la que depende de su velocidad en el espacio. Para ubicaciones dentro de los cuatrocientos kilómetros de la superficie terrestre, despreciando la resistencia del aire y para velocidades que son pequeñas en comparación con la de la luz, tenemos las siguientes fórmulas de energía.
+
+$$E_P = mgh\quad\quad E_k = \frac{1}{2}mv^2$$
+
+donde $g$ es la aceleración de la gravedad cerca de la superficie terrestre y tiene un valor de $9.8 \m/\s^2$. Si utilizamos las unidades de masa, $m$, en $\kg$, altura sobre el suelo, h, en $\m$, y la velocidad del cuerpo, $v$, en $\m/\s$, las unidades de energía son $\J$ (Joules).
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{Ares1x.jpg}
+        \caption{Cohete Ares 1-X}
+        \label{fig:1}
+    \end{figure}
+
+Al igual que una pelota de béisbol, un cohete en caída libre o una piedra lanzada desde un puente se mueven a lo largo de su trayectoria hacia el suelo. Constantemente intercambian joules de energía potencial por energía cinética. Antes de caer, su energía es $100\%$ $E_p$, mientras que en el instante justo antes de tocar tierra, su energía es $100\%$ $E_k$.
+\begin{enumerate}
+	\item Una pelota de béisbol con $m = 0.145 \kg$ cae desde la parte superior de su arco hasta el suelo, a una distancia de $100 \m$.
+		\begin{enumerate}
+		\item ¿Cuál era su $E_k$ en $\text{J}$, en la parte superior de su arco?
+		\item ¿Cuál era la $E_p$ de la pelota de béisbol, en $\J$, en la parte superior de su arco?
+		\end{enumerate}
+	\item La cápsula Ares 1-X tenía una masa de 5000 $\kg$. Si la cápsula cayó $45\km$ desde la parte superior de su trayectoria, ¿Cuánta energía cinética tenía en el momento del impacto con el suelo?
+	\item Suponga que la pelota de béisbol del \textit{Problema 1} se dejó caer desde la misma altura que la cápsula Ares 1-X. ¿Cuál sería su $E_k$ en el momento del impacto?
+	\item A partir de la fórmula para $E_k$ y sus respuestas a \textit{los problemas 2 y 3}, en $\m/\s$:
+		\begin{enumerate}
+		\item ¿Cuál fue la velocidad de la pelota de béisbol cuando golpeó el suelo?
+		\item ¿Cuál fue la velocidad de la cápsula Ares 1-X cuando aterrizó?
+		\item Discuta por qué sus respuestas no parecen tener sentido.
+		\end{enumerate}
+\end{enumerate}
+\end{problema}
+ [1.2.6]
+
+\begin{problema}
+El universo es un lugar MUY grande... ¡Pero también tiene algunos ingredientes muy pequeños! Los astrónomos y físicos a menudo encuentran que las escalas lineales para graficar son muy incómodas de usar porque las cantidades que más les gustaría graficar difieren en potencias de $10$ en tamaño, temperatura o masa. Las gráficas \textit{Log-Log} se utilizan comúnmente para ver la \textit{imagen general}. En lugar de una escala lineal como $1\km, 2\km, 3\km, ...,$ se utiliza una escala logarítmica donde $1$ representa $10^1$, $2$ representa $10^2$, ..., $20$ representa $10^{20}$, etc.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\# & Objeto & R (metros) & M (kg) \\
+\hline
+1 & Tú & $2.0$ & $60$ \\
+\hline
+2 & Mosquito & $2 \times 10^{-3}$ & $2 \times 10^{-6}$ \\
+\hline
+3 & Protón & $2 \times 10^{-15}$ & $2 \times 10^{-27}$ \\
+\hline
+4 & Electrón & $4 \times 10^{-18}$ & $1 \times 10^{-30}$ \\
+\hline
+5 & Bosón Z & $1 \times 10^{-18}$ & $2 \times 10^{-25}$ \\
+\hline
+6 & Tierra & $6 \times 10^{6}$ & $6 \times 10^{24}$ \\
+\hline
+7 & Sol & $1 \times 10^{9}$ & $2 \times 10^{30}$ \\
+\hline
+8 & Júpiter & $4 \times 10^{8}$ & $2 \times 10^{27}$ \\
+\hline
+9 & Betelgeuse & $8 \times 10^{11}$ & $6 \times 10^{31}$ \\
+\hline
+10 & Galaxia Vía Láctea & $1 \times 10^{21}$ & $5 \times 10^{41}$ \\
+\hline
+11 & Átomo de uranio & $2 \times 10^{-14}$ & $4 \times 10^{-25}$ \\
+\hline
+12 & Sistema solar & $1 \times 10^{13}$ & $2 \times 10^{30}$ \\
+\hline
+13 & Ameba & $6 \times 10^{-5}$ & $1 \times 10^{-12}$ \\
+\hline
+14 & Bombilla de 100 vatios & $5 \times 10^{-2}$ & $5 \times 10^{-2}$ \\
+\hline
+15 & Enana blanca Sirius B & $6 \times 10^{6}$ & $2 \times 10^{30}$ \\
+\hline
+16 & Nebulosa de Orión & $3 \times 10^{18}$ & $2 \times 10^{34}$ \\
+\hline
+17 & Estrella de neutrones & $4 \times 10^{4}$ & $4 \times 10^{30}$ \\
+\hline
+18 & Sistema binario de estrellas & $1 \times 10^{13}$ & $4 \times 10^{30}$ \\
+\hline
+19 & Cúmulo globular M13 & $1 \times 10^{18}$ & $2 \times 10^{35}$ \\
+\hline
+20 & Cúmulo de galaxias & $5 \times 10^{23}$ & $5 \times 10^{44}$ \\
+\hline
+21 & Universo visible & $2 \times 10^{26}$ & $2 \times 10^{54}$ \\
+\hline
+\end{tabular}
+\caption{Objetos, sus radios y masas típicos}
+\label{tab:objetos}
+\end{table}
+
+A continuación trabajaremos con una gráfica $\log(m)$ vs $\log(r)$, donde $m$ es la masa de un objeto en kilogramos y $r$ es su longitud o diámetro en metros.
+\begin{enumerate}
+	\item Grafica los objetos enumerados en la tabla a continuación en una gráfica \textit{Log-Log}, con el eje $x$ siendo $\log(M)$ y el eje $y$ siendo $\log(r)$.
+
+	\item Dibuja una línea que represente todos los objetos que tienen una densidad de
+	\begin{enumerate} 
+		\item$N\to$ materia nuclear: $4 \times 10^{17} \km/\m^3$
+		\item $W\to$ agua: $1000 \km/\m^3$.
+	\end{enumerate}
+	\item Los agujeros negros se definen mediante la sencilla fórmula $R = 3M$, donde $R$ es el radio en kilómetros y $M$ es la masa en unidades de masas solares ($M_\odot = 2 \times 10^{30} \kg$). Sombrea la región de la 		gráfica \textit{Log-Log} que representa la condición de que ningún objeto de una masa dada puede tener un radio \textbf{menor} que el de un agujero negro.
+
+	\item La densidad más baja alcanzable en nuestro universo está determinada por la densidad del campo de radiación del fuego cósmico, de $4 \times 10^{-31} \kg/\m^3$. Dibuja una línea que identifique el lugar geométrico de 			los objetos con esta densidad, y sombrea la región que excluye densidades \textbf{menores} que esta.
+\end{enumerate}
+\end{problema}
+[3.3.1]
+
+\begin{problema}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{SunspotCycle.png}
+        \caption{Ciclo de manchas solares}
+        \label{fig:2}
+    \end{figure}
+    
+Las manchas solares aparecen y desaparecen en un ciclo de aproximadamente 11 años. Los astrónomos miden la simetría de estos ciclos comparando los primeros 4 años con los últimos 4 años. Si los ciclos son exactamente simétricos, las diferencias correspondientes serán exactamente cero.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Matriz A} & \textbf{Año 1} & \textbf{Año 2} & \textbf{Año 3} & \textbf{Año 4} \\
+\hline
+Ciclo 23 & 21 & 64 & 93 & 119 \\
+\hline
+Ciclo 22 & 13 & 29 & 100 & 157 \\
+\hline
+Ciclo 21 & 12 & 27 & 92 & 155 \\
+\hline
+Ciclo 20 & 15 & 47 & 93 & 106 \\
+\hline
+\end{tabular}
+\caption{Número de manchas solares al inicio de cada ciclo}
+\label{tab:matrizA}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Matriz B} & \textbf{Año 11} & \textbf{Año 10} & \textbf{Año 9} & \textbf{Año 8} \\
+\hline
+Ciclo 23 & 8 & 15 & 29 & 40 \\
+\hline
+Ciclo 22 & 8 & 17 & 30 & 54 \\
+\hline
+Ciclo 21 & 15 & 34 & 38 & 64 \\
+\hline
+Ciclo 20 & 10 & 28 & 38 & 54 \\
+\hline
+\end{tabular}
+\caption{Número de manchas solares al final de cada ciclo}
+\label{tab:matrizB}
+\end{table}
+
+\begin{enumerate}
+	\item Calcula el promedio de los números de manchas solares para cada ciclo según $C = \frac{A+B}{2}$
+	\item Calcula la diferencia promedio de los números de manchas solares entre el inicio y el final de cada ciclo según $D = \frac{A-B}{2}$
+	\item ¿Son simétricos los ciclos?
+\end{enumerate}
+\end{problema}
+[4.1.1]
+\bibliographystyle{plainurl}
+\bibliography{bibliografia} % Nombre del .bib
+
+\end{document}
