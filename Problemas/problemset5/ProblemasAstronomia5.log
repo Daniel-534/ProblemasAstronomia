@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  16 NOV 2025 17:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  30 NOV 2025 14:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**ProblemasAstronomia1.tex
-(./ProblemasAstronomia1.tex
+**ProblemasAstronomia5.tex
+(./ProblemasAstronomia5.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -775,63 +775,53 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks44
 \@floatcapt=\box82
 )
-(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
-Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
-\col@sep=\dimen281
-\ar@mcellbox=\box83
-\extrarowheight=\dimen282
-\NC@list=\toks45
-\extratabsurround=\skip70
-\backup@length=\skip71
-\ar@cellbox=\box84
-)
 \c@problema=\count341
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count342
-\l__pdf_internal_box=\box85
+\l__pdf_internal_box=\box83
 )
-(./ProblemasAstronomia1.aux
+(./ProblemasAstronomia5.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
-\openout1 = `ProblemasAstronomia1.aux'.
+\openout1 = `ProblemasAstronomia5.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Info: Redefining \. on input line 58.
+LaTeX Info: Redefining \% on input line 58.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count343
-\scratchdimen=\dimen283
-\scratchbox=\box86
+\scratchdimen=\dimen281
+\scratchbox=\box84
 \nofMPsegments=\count344
 \nofMParguments=\count345
-\everyMPshowfont=\toks46
+\everyMPshowfont=\toks45
 \MPscratchCnt=\count346
-\MPscratchDim=\dimen284
+\MPscratchDim=\dimen282
 \MPnumerator=\count347
 \makeMPintoPDFobject=\count348
-\everyMPtoPDFconversion=\toks47
+\everyMPtoPDFconversion=\toks46
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -878,32 +868,38 @@ e
 \c@lstlisting=\count349
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks48
-\inpenc@posthook=\toks49
+\inpenc@prehook=\toks47
+\inpenc@posthook=\toks48
 )
-Package hyperref Info: Link coloring OFF on input line 42.
+Package hyperref Info: Link coloring OFF on input line 58.
 
-(./ProblemasAstronomia1.out) (./ProblemasAstronomia1.out)
+(./ProblemasAstronomia5.out) (./ProblemasAstronomia5.out)
 \@outlinefile=\write4
-\openout4 = `ProblemasAstronomia1.out'.
+\openout4 = `ProblemasAstronomia5.out'.
 
-<TidalForce.png, id=43, 476.37975pt x 252.34274pt>
-File: TidalForce.png Graphic file (type png)
-<use TidalForce.png>
-Package pdftex.def Info: TidalForce.png  used on input line 48.
-(pdftex.def)             Requested size: 318.39474pt x 168.65675pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
+<earthMagneticField.png, id=43, 719.68875pt x 789.95125pt>
+File: earthMagneticField.png Graphic file (type png)
+<use earthMagneticField.png>
+Package pdftex.def Info: earthMagneticField.png  used on input line 67.
+(pdftex.def)             Requested size: 227.42581pt x 249.6315pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 72.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 72.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+<Higgs.png, id=45, 401.5pt x 343.2825pt>
+File: Higgs.png Graphic file (type png)
+<use Higgs.png>
+Package pdftex.def Info: Higgs.png  used on input line 104.
+(pdftex.def)             Requested size: 227.42581pt x 194.45258pt.
+
 
 [1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -912,24 +908,30 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.132 \end{problema} [
-                      1.2.4] <./TidalForce.png>]
-<moon.png, id=74, 2007.5pt x 1962.33125pt>
-File: moon.png Graphic file (type png)
-<use moon.png>
-Package pdftex.def Info: moon.png  used on input line 138.
-(pdftex.def)             Requested size: 227.42581pt x 222.29478pt.
+l.126 [
+       1.6.3]\cite{algebra2} <./earthMagneticField.png>]
+<BokGlobule.jpg, id=68, 722.7pt x 533.995pt>
+File: BokGlobule.jpg Graphic file (type jpg)
+<use BokGlobule.jpg>
+Package pdftex.def Info: BokGlobule.jpg  used on input line 138.
+(pdftex.def)             Requested size: 227.42581pt x 168.03821pt.
 
 
 [2
-pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
- been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.160 \end{problema}[
-                     1.4.1]] (./ProblemasAstronomia1.bbl)
+l.150 [
+       5.3.2]\cite{algebra2} <./Higgs.png>] (./ProblemasAstronomia5.bbl)
 
-[3 <./moon.png>] (./ProblemasAstronomia1.aux
+[3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.155 \end{document}
+                     <./BokGlobule.jpg>] (./ProblemasAstronomia5.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
@@ -937,17 +939,17 @@ LaTeX Info: Redefining \% on input line 12.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `ProblemasAstronomia1.out' has not changed.
+Package rerunfilecheck Info: File `ProblemasAstronomia5.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29443 strings out of 473190
- 588566 string characters out of 5715801
- 1030549 words of memory out of 5000000
- 52215 multiletter control sequences out of 15000+600000
+ 29385 strings out of 473190
+ 587849 string characters out of 5715801
+ 1027581 words of memory out of 5000000
+ 52169 multiletter control sequences out of 15000+600000
  561963 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,14n,105p,541b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,12n,105p,583b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -959,10 +961,10 @@ al/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/
 texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
 exlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ProblemasAstronomia1.pdf (3 pages, 2984814 bytes).
+Output written on ProblemasAstronomia5.pdf (3 pages, 355237 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 167 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 144 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
+ 172 words of extra memory for PDF output out of 10000 (max. 10000000)
 

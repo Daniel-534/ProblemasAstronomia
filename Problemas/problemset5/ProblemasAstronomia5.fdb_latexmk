@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex ProblemasAstronomia1"] 1763333571.33824 "ProblemasAstronomia1.aux" "ProblemasAstronomia1.bbl" "ProblemasAstronomia1" 1763333575.56512 0
-  "./bibliografia.bib" 1762282819.63022 522 458c89d83e424ff2b854aeb73044fad6 ""
+["bibtex ProblemasAstronomia5"] 1764510379.12102 "ProblemasAstronomia5.aux" "ProblemasAstronomia5.bbl" "ProblemasAstronomia5" 1764530661.86432 0
+  "./bibliografia.bib" 1762726774.39396 522 458c89d83e424ff2b854aeb73044fad6 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/urlbst/plainurl.bst" 1675116457 33495 46cfb45e24a877059f9f7e142c7fc61c ""
-  "ProblemasAstronomia1.aux" 1763333574.79012 944 d883a062d467a1a6a05fa8a8fb189e3a "pdflatex"
+  "ProblemasAstronomia5.aux" 1764530660.68213 1437 c1a0d63f918ca6ba0c9ba56aade7c60c "pdflatex"
   (generated)
-  "ProblemasAstronomia1.bbl"
-  "ProblemasAstronomia1.blg"
+  "ProblemasAstronomia5.bbl"
+  "ProblemasAstronomia5.blg"
   (rewritten before read)
-["pdflatex"] 1763333571.62344 "ProblemasAstronomia1.tex" "ProblemasAstronomia1.pdf" "ProblemasAstronomia1" 1763333575.56562 0
+["pdflatex"] 1764530657.12069 "ProblemasAstronomia5.tex" "ProblemasAstronomia5.pdf" "ProblemasAstronomia5" 1764530661.86555 0
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -185,7 +185,6 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty" 1691524336 2573 42712c9e0a2df004e43df5b3c95f0c1e ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty" 1691524336 1120 ba535da48caa03bf1fd3f03ea87779f8 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex" 1691524336 10931 717eb52299f416934beb8b2b7cd8cee6 ""
-  "/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty" 1730496337 14552 27664839421e418b87f56fa4c6f66b1a ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/tools/enumerate.sty" 1717359999 3468 ad69b54642e68f9fdf39ec1a16dd7341 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/tools/verbatim.sty" 1717359999 7532 d2e1111e17bfebb1607d8ffa779705ec ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/trimspaces/trimspaces.sty" 1253232110 1380 971a51b00a14503ddf754cab24c3f209 ""
@@ -195,15 +194,16 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1760400667 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "ProblemasAstronomia1.aux" 1763333574.79012 944 d883a062d467a1a6a05fa8a8fb189e3a "pdflatex"
-  "ProblemasAstronomia1.bbl" 1763333571.60702 469 8114d513717efd06930dcc606f43b14c "bibtex ProblemasAstronomia1"
-  "ProblemasAstronomia1.out" 1763333573.10413 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "ProblemasAstronomia1.tex" 1763333517.15962 7288 9824075cfbd46c2d4f1ae58f37357ec5 ""
-  "TidalForce.png" 1762282805.99835 121072 91e96e6c5404a1c48b0f106de5ae4ec5 ""
-  "moon.png" 1762469989.93854 1978962 9a5611525608c7bd1b8e2f2845d9c381 ""
+  "BokGlobule.jpg" 1764509634.04895 33027 c1ca1a2d535c7baf2e2f17561dadd465 ""
+  "Higgs.png" 1764508260.29272 39378 9b34a0c0e987b8dcf61fb5f38d3c0343 ""
+  "ProblemasAstronomia5.aux" 1764530660.68213 1437 c1a0d63f918ca6ba0c9ba56aade7c60c "pdflatex"
+  "ProblemasAstronomia5.bbl" 1764510379.39533 469 8114d513717efd06930dcc606f43b14c "bibtex ProblemasAstronomia5"
+  "ProblemasAstronomia5.out" 1764530659.91347 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "ProblemasAstronomia5.tex" 1764530655.26539 7005 5cd58743e03efd64b276d89bb0aa16fb ""
+  "earthMagneticField.png" 1764504650.98715 144288 d3cf16c2b1107b31dcdca8e718523903 ""
   (generated)
-  "ProblemasAstronomia1.aux"
-  "ProblemasAstronomia1.log"
-  "ProblemasAstronomia1.out"
-  "ProblemasAstronomia1.pdf"
+  "ProblemasAstronomia5.aux"
+  "ProblemasAstronomia5.log"
+  "ProblemasAstronomia5.out"
+  "ProblemasAstronomia5.pdf"
   (rewritten before read)
