@@ -36,6 +36,8 @@
 \newcommand{\nT}{\text{nT}}
 \newcommand{\GeV}{\text{GeV}}
 \newcommand{\atomscm}{\text{atoms/cm}^3}
+\newcommand{\K}{\text{K}}
+\newcommand{\J}{\text{J}}
 
 \newcounter{problema}
 
@@ -116,6 +118,13 @@ Los agujeros negros son tan increíblemente densos que enormes cantidades de mat
 Ningún evento físico conocido puede hacer que los agujeros negros sean más pequeños que la masa de una estrella pequeña. 
 Pero como los agujeros negros son un producto de la gravedad, al menos teóricamente, no hay límite para lo grande o lo pequeño que pueden ser.
 
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{DensityBlackHole.jpg}
+        \caption{Cuanto más se hunde el espacio, más denso es el objeto. El agujero negro es la máxima compresión de la materia.}
+        \label{fig:2}
+    \end{figure}
+
 La tabla a continuación muestra el radio predicho de agujeros negros que contienen diversas cantidades de materia. 
 Ninguno de estos agujeros negros ha sido observado, pero sus tamaños se han determinado a partir de sus masas declaradas. 
 Las masas se dan todas en términos de la masa de nuestra Tierra $\Mterrestre$, $\sim 5.7 \times 10^{24}\kg$, 
@@ -154,6 +163,63 @@ de modo que  $2 \Mterrestre$ significa la masa de un agujero negro con el doble 
 
 \end{problema}
 [3] \cite{NASA_BlackHoleMath}
+
+\begin{problema}
+\textbf{Agujeros Negros y Temperaturas del Disco de Acreción:} Cuanto más lejos cae una partícula hacia un agujero negro, más rápido viaja y más energía cinética posee. 
+La energía cinética se define matemáticamente como $E_k = \frac{1}{2} m v^2$, donde $m$ es la masa de la partícula y $v$ es su velocidad.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{AccretionDisk.jpg}
+        \caption{Representación del disco de acreción alrededor de un agujero negro, donde la intensidad lumínica refleja la temperatura extremadamente alta del gas en rotación.}
+        \label{fig:3}
+    \end{figure}
+
+
+Supongamos que toda esta energía se convierte en calor por fricción mientras la partícula cae, y que esta energía añadida hace que los gases cercanos se calienten. ¿Qué tan caliente se volverá el gas? La cantidad equivalente de energía térmica, $E_T$, transportada por una sola partícula es:
+
+\begin{equation}
+	E_T =  \frac{3}{2} kT
+	\label{eq:1}
+\end{equation}
+
+donde la constante de Boltzmann $k = 1.38 \times 10^{-23} \J / \K$. Si igualamos $E_k = E_T$, obtenemos:
+
+\begin{equation}
+	T = \frac{mv^2}{3k}
+	\label{eq:2}
+\end{equation}
+
+Si todas las partículas en un gas tuvieran esta misma energía cinética, diríamos que el gas tiene una temperatura de $T$ en Kelvin. También sabemos que la energía potencial de la partícula viene dada por:
+
+\begin{equation}
+	E_P = \frac{GMm}{R}
+	\label{eq:3}
+\end{equation}
+
+Por lo tanto, si igualamos $E_P = E_T$, también obtenemos la temperatura:
+
+\begin{equation}
+	T = \frac{2GMm}{3kR}
+	\label{eq:4}
+\end{equation}
+
+\vspace{5mm}
+\begin{enumerate}
+
+	\item La fórmula \eqref{eq:4} proporciona la temperatura aproximada del gas de hidrógeno cuya masa es $m = 1.6 \times 10^{-27} \kg$ en un disco de acreción alrededor de un agujero negro. 
+	¿cuál es la temperatura del material a la distancia de la órbita de la Tierra para un agujero negro de masa solar?
+	\begin{itemize}
+		\item $R = 1.47 \times 10^{11} \m$
+		\item $M = 1.9 \times 10^{30} \kg$
+		\item $G = 6.67 \times 10^{-11} \N \m ^2/\kg^2$
+	\end{itemize}
+	\item ¿Qué tan caliente estaría el disco a la distancia de Neptuno? $R = 4.4 \times 10^{12} \m$
+	\item Los rayos X son la forma más común de energía producida a temperaturas superiores a $100 000 \K$. La luz visible se produce a temperaturas superiores a $2 000 \K$. 
+	La radiación infrarroja se produce comúnmente a temperaturas inferiores a $500 \K$. ¿Qué esperarías ver si estudiases el disco de acreción alrededor de un agujero negro del tamaño de una masa solar?
+\end{enumerate}
+\end{problema}
+[22] \cite{NASA_BlackHoleMath}
 
 
 \bibliographystyle{plainurl}

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  30 NOV 2025 18:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  30 NOV 2025 19:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**ProblemasAstronomia6.tex
-(./ProblemasAstronomia6.tex
+**ProblemasAstronomia7.tex
+(./ProblemasAstronomia7.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -775,53 +775,91 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks44
 \@floatcapt=\box82
 )
-\c@problema=\count341
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen281
+\ar@mcellbox=\box83
+\extrarowheight=\dimen282
+\NC@list=\toks45
+\extratabsurround=\skip70
+\backup@length=\skip71
+\ar@cellbox=\box84
+)
+\TX@col@width=\dimen283
+\TX@old@table=\dimen284
+\TX@old@col=\dimen285
+\TX@target=\dimen286
+\TX@delta=\dimen287
+\TX@cols=\count341
+\TX@ftn=\toks46
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip72
+\RaggedLeftLeftskip=\skip73
+\RaggedRightLeftskip=\skip74
+\CenteringRightskip=\skip75
+\RaggedLeftRightskip=\skip76
+\RaggedRightRightskip=\skip77
+\CenteringParfillskip=\skip78
+\RaggedLeftParfillskip=\skip79
+\RaggedRightParfillskip=\skip80
+\JustifyingParfillskip=\skip81
+\CenteringParindent=\skip82
+\RaggedLeftParindent=\skip83
+\RaggedRightParindent=\skip84
+\JustifyingParindent=\skip85
+)
+\c@problema=\count342
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count342
-\l__pdf_internal_box=\box83
+\l__color_backend_stack_int=\count343
+\l__pdf_internal_box=\box85
 )
-(./ProblemasAstronomia6.aux
+(./ProblemasAstronomia7.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
-\openout1 = `ProblemasAstronomia6.aux'.
+\openout1 = `ProblemasAstronomia7.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Info: Redefining \. on input line 69.
+LaTeX Info: Redefining \% on input line 69.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count343
-\scratchdimen=\dimen281
-\scratchbox=\box84
-\nofMPsegments=\count344
-\nofMParguments=\count345
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count346
-\MPscratchDim=\dimen282
-\MPnumerator=\count347
-\makeMPintoPDFobject=\count348
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count344
+\scratchdimen=\dimen288
+\scratchbox=\box86
+\nofMPsegments=\count345
+\nofMParguments=\count346
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count347
+\MPscratchDim=\dimen289
+\MPnumerator=\count348
+\makeMPintoPDFobject=\count349
+\everyMPtoPDFconversion=\toks48
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -865,40 +903,40 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count349
+\c@lstlisting=\count350
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks47
-\inpenc@posthook=\toks48
+\inpenc@prehook=\toks49
+\inpenc@posthook=\toks50
 )
-Package hyperref Info: Link coloring OFF on input line 61.
+Package hyperref Info: Link coloring OFF on input line 69.
 
-(./ProblemasAstronomia6.out) (./ProblemasAstronomia6.out)
+(./ProblemasAstronomia7.out) (./ProblemasAstronomia7.out)
 \@outlinefile=\write4
-\openout4 = `ProblemasAstronomia6.out'.
+\openout4 = `ProblemasAstronomia7.out'.
 
-<CygnusX1.jpg, id=43, 285.065pt x 177.66376pt>
-File: CygnusX1.jpg Graphic file (type jpg)
-<use CygnusX1.jpg>
-Package pdftex.def Info: CygnusX1.jpg  used on input line 69.
-(pdftex.def)             Requested size: 318.39474pt x 198.43713pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 78.
+<OriginOfLife.jpg, id=43, 435.12563pt x 219.82124pt>
+File: OriginOfLife.jpg Graphic file (type jpg)
+<use OriginOfLife.jpg>
+Package pdftex.def Info: OriginOfLife.jpg  used on input line 78.
+(pdftex.def)             Requested size: 454.85162pt x 229.80278pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 78.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<DensityBlackHole.jpg, id=45, 591.20876pt x 383.4325pt>
-File: DensityBlackHole.jpg Graphic file (type jpg)
-<use DensityBlackHole.jpg>
-Package pdftex.def Info: DensityBlackHole.jpg  used on input line 123.
-(pdftex.def)             Requested size: 318.39474pt x 206.5005pt.
+<T4.jpg, id=45, 1204.5pt x 1077.02374pt>
+File: T4.jpg Graphic file (type jpg)
+<use T4.jpg>
+Package pdftex.def Info: T4.jpg  used on input line 118.
+(pdftex.def)             Requested size: 272.91374pt x 244.02902pt.
 
 
 [1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -908,44 +946,44 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.164 \end{problema}
-                    
-pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
- been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.164 \end{problema}
-                     <./CygnusX1.jpg>]
-<AccretionDisk.jpg, id=63, 2420.10234pt x 1361.18974pt>
-File: AccretionDisk.jpg Graphic file (type jpg)
-<use AccretionDisk.jpg>
-Package pdftex.def Info: AccretionDisk.jpg  used on input line 173.
-(pdftex.def)             Requested size: 318.39474pt x 179.07942pt.
-
+l.166 \end{problema}
+                     <./OriginOfLife.jpg>]
 
 [2
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.221 \end{problema}
+l.166 \end{problema}
                     
-pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.221 \end{problema}
-                     <./DensityBlackHole.jpg>] (./ProblemasAstronomia6.bbl
+l.166 \end{problema}
+                     <./T4.jpg>]
+<Coelicolor.jpeg, id=77, 602.25pt x 392.21532pt>
+File: Coelicolor.jpeg Graphic file (type jpg)
+<use Coelicolor.jpeg>
+Package pdftex.def Info: Coelicolor.jpeg  used on input line 177.
+(pdftex.def)             Requested size: 318.39474pt x 207.36443pt.
+
 
 [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.11 
-      <./AccretionDisk.jpg>])
+l.225 \end{problema}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.225 \end{problema}
+                     <./Coelicolor.jpeg>] (./ProblemasAstronomia7.bbl)
 
-[4] (./ProblemasAstronomia6.aux
+[4] (./ProblemasAstronomia7.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
@@ -953,31 +991,30 @@ LaTeX Info: Redefining \% on input line 12.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `ProblemasAstronomia6.out' has not changed.
+Package rerunfilecheck Info: File `ProblemasAstronomia7.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29407 strings out of 473190
- 588102 string characters out of 5715801
- 1032318 words of memory out of 5000000
- 52179 multiletter control sequences out of 15000+600000
- 562582 words of font info for 51 fonts, out of 8000000 for 9000
+ 29682 strings out of 473190
+ 592893 string characters out of 5715801
+ 1037081 words of memory out of 5000000
+ 52441 multiletter control sequences out of 15000+600000
+ 565992 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,13n,105p,541b,682s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,13n,105p,541b,1046s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
+usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
 sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 /local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/lo
-cal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
-al/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local
+cal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local
 /texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
 texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ProblemasAstronomia6.pdf (4 pages, 2631363 bytes).
+Output written on ProblemasAstronomia7.pdf (4 pages, 397641 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 30 named destinations out of 1000 (max. 500000)
+ 143 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
+ 27 named destinations out of 1000 (max. 500000)
  172 words of extra memory for PDF output out of 10000 (max. 10000000)
 
