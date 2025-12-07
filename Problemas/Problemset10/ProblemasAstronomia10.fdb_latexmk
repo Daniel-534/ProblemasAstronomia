@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex ProblemasAstronomia9"] 1765113797.93833 "ProblemasAstronomia9.aux" "ProblemasAstronomia9.bbl" "ProblemasAstronomia9" 1765114108.25552 0
-  "./bibliografia.bib" 1765112269.70902 405 cbea98c239edfe2ef340410b3035ea2c ""
+["bibtex ProblemasAstronomia10"] 1765132735.5264 "ProblemasAstronomia10.aux" "ProblemasAstronomia10.bbl" "ProblemasAstronomia10" 1765132737.72205 0
+  "./bibliografia.bib" 1765115092.86693 372 6932f7a1c7cea299feca3b7f5585783a ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/urlbst/plainurl.bst" 1675116457 33495 46cfb45e24a877059f9f7e142c7fc61c ""
-  "ProblemasAstronomia9.aux" 1765114107.66086 1368 4778ff32b5f547d57455e67ba8aaa8db "pdflatex"
+  "ProblemasAstronomia10.aux" 1765132737.16617 581 466d6ea95c9013fa36fcbcb93e601215 "pdflatex"
   (generated)
-  "ProblemasAstronomia9.bbl"
-  "ProblemasAstronomia9.blg"
+  "ProblemasAstronomia10.bbl"
+  "ProblemasAstronomia10.blg"
   (rewritten before read)
-["pdflatex"] 1765114105.98288 "ProblemasAstronomia9.tex" "ProblemasAstronomia9.pdf" "ProblemasAstronomia9" 1765114108.25608 0
+["pdflatex"] 1765132735.70847 "ProblemasAstronomia10.tex" "ProblemasAstronomia10.pdf" "ProblemasAstronomia10" 1765132737.72239 0
   "/etc/texmf/web2c/texmf.cnf" 1759262222.47121 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -24,14 +24,9 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1136768653 768 1321e9409b4137d6fb428ac9dc956269 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1248133631 37912 77d683123f92148345f3fc36a38d9ab1 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1248133631 31099 c85edf1dd5b9e826d67c9c7293b6786c ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -189,7 +184,6 @@
   "/usr/share/texlive/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex" 1691524336 10931 717eb52299f416934beb8b2b7cd8cee6 ""
   "/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty" 1698869629 3468 0ef513f22d965f96b06adb5cff671cd7 ""
   "/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty" 1700689882 7500 db31c3d04f8bc9010e47a5efbbace9ff ""
-  "/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty" 1686341992 4545 9f5ea23ab1c91476c42749893f790666 ""
   "/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty" 1253232110 1380 971a51b00a14503ddf754cab24c3f209 ""
   "/usr/share/texlive/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty" 1700082560 55487 80a65caedd3722f4c20a14a69e785d8f ""
@@ -197,15 +191,15 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1759857728.52022 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1759857901 8214184 2debb020318aaf648bf0372d0a1395f1 ""
-  "CMEs.jpg" 1765109739.16604 304069 991e8dbb90c0faed75df0477be1ee64e ""
-  "MagneticField.png" 1765036622.1501 92967 171b3b9a25bd56f3c6e142b8069efbde ""
-  "ProblemasAstronomia9.aux" 1765114107.66086 1368 4778ff32b5f547d57455e67ba8aaa8db "pdflatex"
-  "ProblemasAstronomia9.bbl" 1765113798.10725 358 29d418f197bc7d891266cf449f83b4e9 "bibtex ProblemasAstronomia9"
-  "ProblemasAstronomia9.out" 1765114107.26586 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "ProblemasAstronomia9.tex" 1765114105.84485 11313 901658fc3157652b40ffbda0fc03f9ab ""
+  "ProblemasAstronomia10.aux" 1765132737.16617 581 466d6ea95c9013fa36fcbcb93e601215 "pdflatex"
+  "ProblemasAstronomia10.bbl" 1765132735.6921 298 db74d9f5550b75f1ff5148af144777dc "bibtex ProblemasAstronomia10"
+  "ProblemasAstronomia10.out" 1765132736.90915 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "ProblemasAstronomia10.tex" 1765132729.85083 6453 9c29aeefc0fa092aa1de429d41dbbc7a ""
+  "SDO.jpeg" 1765130431.81063 6947 33d922bc66b52f4cf53f22392486063e ""
+  "Sunspot.png" 1765131840.25438 135714 83b5679724ee7b77ea79b68970fe55c6 ""
   (generated)
-  "ProblemasAstronomia9.aux"
-  "ProblemasAstronomia9.log"
-  "ProblemasAstronomia9.out"
-  "ProblemasAstronomia9.pdf"
+  "ProblemasAstronomia10.aux"
+  "ProblemasAstronomia10.log"
+  "ProblemasAstronomia10.out"
+  "ProblemasAstronomia10.pdf"
   (rewritten before read)

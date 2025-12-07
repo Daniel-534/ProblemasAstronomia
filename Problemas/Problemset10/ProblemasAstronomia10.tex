@@ -23,6 +23,7 @@
 
 %% Definicion de comandos para formato de unidades fisicas %%
 \newcommand{\m}{\text{m}}
+\newcommand{\mm}{\text{mm}}
 \newcommand{\cm}{\text{cm}}
 \newcommand{\km}{\text{km}}
 \newcommand{\s}{\text{s}}
@@ -43,7 +44,7 @@
 
 \newcounter{problema}
 
-\newtcolorbox[use counter=problema]{problema}[10][]{%
+\newtcolorbox[use counter=problema]{problema}[1][]{%
 	breakable,
     colback=gray!15,
     colframe=gray!60,
@@ -63,60 +64,76 @@
 \begin{document}
 
 \begin{problema}
-    
-    \begin{figure}[H]
-        \centering
-        \includegraphics[width=0.7\textwidth]{TidalForce.png}
-        \caption{Fuerza de marea entre la tierra y la luna}
-        \label{fig:1}
-    \end{figure}
+\textbf{SDO revela detalles sobre la superficie del Sol:} El 21 de abril de 2010, el Observatorio de Dinámica Solar (SDO) de la NASA publicó sus muy esperadas imágenes de la "Primera Luz" del Sol.
 
-    Una fuerza de marea es una diferencia en la fuerza de gravedad entre dos puntos, como en la Figura \ref{fig:1}
+\begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{SDO.jpeg}
+        %\caption{}
+        \label{fig:1}
+\end{figure}
 
-    
-    \begin{equation}
-    a = \frac{2GMd}{R^3}
-    \label{eq:1}
-    \end{equation}
+La imagen anterior muestra una imagen de todo el disco, multilongitud de onda, en ultravioleta extremo del Sol, tomada por el SDO el 30 de marzo de 2010. Los colores falsos indican diferentes temperaturas del gas. El negro indica temperaturas muy bajas, cercanas a los 10000 $\K$, cerca de la superficie solar (fotosfera). Los rojos son plasma relativamente frío (un gas compuesto por átomos que han perdido parte de sus electrones) calentado hasta 60000 Kelvin; los azules, verdes y blancos son plasma más caliente, con temperaturas superiores a 1 millón de Kelvin.
+\begin{enumerate}
 
-    \begin{enumerate}
-        \item La ecuación \ref{eq:1} nos permite calcular la aceleraciòn de marea $a$, através de un
-        cuerpo de longitud $d$
-    \end{enumerate}
-    
-    La referencia al libro es la siguiente \cite{algebra2}
+	\item El radio del Sol es de 690000 kilómetros. ¿Cuál es la escala de esta imagen en $\km/\mm$?
+
+	\item ¿Cuáles son las características más pequeñas que puedes encontrar en esta imagen, y qué tamaño tienen en kilómetros, en comparación con la Tierra si el radio de la Tierra es de 6378 kilómetros?
+
+	\item ¿Dónde se ubican en esta imagen el gas más frío (agujeros coronales) y el gas más caliente (llamaradas microscópicas)?
+\end{enumerate}
+ 
 \end{problema}
 
-
+[1] \cite{NASA_SpaceWeatherMath}
 
 \begin{problema}
-    Aunque solo existen una docena de constantes físicas fundamentales de la naturalez,
-    estas se pueden combinar para definir muchas otras constantes básicas en física, 
-    química y astronomía.
+\textbf{Primer plano de una mancha solar por Hinode:} Después de un lanzamiento exitoso el 22 de septiembre de 2006, el observatorio solar Hinode captó una vista parcial de una gran mancha solar el 4 de noviembre de 2006. 
 
-    \begin{table}[H]
-    \centering
-    \begin{tabular}{|c|c|c|}
-    \hline
-    Símbolo & Nombre & Valor \\
-    \hline
-    $c$ & Velocidad de la Luz & $2.9979\times 10^{10} \text{ cm/s}$\\
-    \hline
-    $h$ & Constante de Planck & $6.6262\times 10^{-27} \text{ erg}\cdot \text{s}$\\
-    \hline
-    $m$ & Masa del Electrón & $9.1095\times 10^{-28} \text{ g}$\\
-    \hline
-    $e$ & Carga del Electrón & $4.80325 \times 10^{-10} \text{esu}$\\
-    \hline
-    $G$ & Constante de Gravitación & $6.6732 \times 10^{-8} \text{dyn} \cdot \text{cm}^2 \text{gm}^{-2}$\\
-    \hline
-    $M$ & Masa del Protón & $1.6726 \times 10^{-24} \text{g}$\\
-    \hline
-    \end{tabular}
-    \caption{Constantes físicas}
-    \label{tab:1}
-    \end{table}
+\begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{Sunspot.png}
+        %\caption{}
+        \label{fig:2}
+\end{figure}
+
+Un instrumento llamado Telescopio Óptico Solar (SOT) capturó esta imagen, mostrando detalles de la mancha solar en la superficie solar.
+
+\begin{enumerate}
+	\item Basándose en la distancia entre los puntos de las flechas, ¿cuál es la escala de la imagen de la derecha en unidades de kilómetros por milímetro?
+
+	\item ¿Cuál es el tamaño del detalle más pequeño que puedes ver en la imagen?
+
+	\item Comparado con objetos familiares en la superficie de la Tierra, ¿qué tamaño tendría la característica más pequeña en la imagen solar?
+
+	\item La superficie dorada y texturizada es la fotosfera del Sol. La textura se produce por gas caliente que fluye hacia la superficie desde el interior caliente del Sol. Los gases convectivos forman células, llamadas granulaciones, en la superficie, con gas ascendente proveniente del centro de cada célula, hacia los bordes de la célula, donde se enfría y fluye de vuelta hacia capas más profundas. ¿Cuál es el tamaño promedio de una célula de granulación dentro del cuadrado?
+
+	\item Mide varias células de granulación a diferentes distancias del centro de la mancha solar y grafica el tamaño promedio que obtienes en función de la distancia desde el centro de la mancha. ¿Las células de granulación tienen aproximadamente el mismo tamaño cerca de la mancha solar, o tienden a hacerse más grandes o más pequeñas a medida que te acercas a la mancha solar?
+\end{enumerate}
+
 \end{problema}
+[2] \cite{NASA_SpaceWeatherMath}
+
+\begin{problema}
+\textbf{Detalles de la Superficie Solar con el Telescopio de Vacío Sueco:} El Sol es nuestra estrella más cercana. Desde la Tierra podemos ver su superficie con gran detalle. Las imágenes que se muestran a continuación fueron tomadas con el telescopio de vacío sueco de 1 metro, ubicado en la isla de La Palma, por astrónomos de la Real Academia Sueca de Ciencias, el 15 de julio de 2002. La imagen de la derecha muestra una vista de manchas solares. La vista ampliada a la izquierda revela detalles nunca antes vistos cerca del borde de la mancha solar más grande. Utiliza una regla milimetrada y el hecho de que las dimensiones de la imagen de la izquierda son $19300 \km \times 29500 \km$ para determinar la escala de la fotografía, y luego responde las preguntas. Consulta las flechas para identificar las diversas características solares mencionadas en las preguntas.
+
+\begin{enumerate}
+
+	\item ¿Cuál es la escala de la imagen en km/mm?
+
+	\item ¿Cuál es la característica más pequeña que puedes ver en la imagen?
+
+	\item ¿Cuál es el tamaño promedio de una región de granulación solar?
+
+	\item ¿Qué longitud y anchura tienen los Filamentos Oscuros?
+
+	\item ¿Qué tamaño tienen las Manchas Brillantes?
+
+	\item Dibuja un círculo centrado en esta imagen que tenga el tamaño de la Tierra (radio = 6378 km). ¿Qué tamaño tienen las características que mediste en comparación con características terrestres familiares?
+\end{enumerate}
+
+\end{problema}
+[3] \cite{NASA_SpaceWeatherMath}
 
 \bibliographystyle{plainurl}
 \bibliography{bibliografia} % Nombre del .bib

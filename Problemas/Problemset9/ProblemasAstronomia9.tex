@@ -11,8 +11,7 @@
 \usepackage[most]{tcolorbox}
 \usepackage[hidelinks]{hyperref}
 \usepackage{float}
-
-
+\usepackage{xspace}
 % cabecera
 \pagestyle{fancy}
 \fancyhead[l]{Daniel Soto}
@@ -38,6 +37,8 @@
 \newcommand{\atomscm}{\text{atoms/cm}^3}
 \newcommand{\K}{\text{K}}
 \newcommand{\J}{\text{J}}
+\newcommand{\blank}{\rule{2cm}{0.4pt}\xspace}
+
 
 
 
@@ -107,6 +108,153 @@ Estas fórmulas dan las dos componentes del campo magnético solar, en unidades 
 \end{enumerate}
 \end{problema}
 [9] \cite{NASA_SpaceMathIII}
+
+\begin{problema}
+\textbf{Funciones Paramétricas y Sustitución:} Nuestro Sol es una estrella activa que expulsa un flujo constante de partículas al espacio, conocido como el "viento solar". De vez en cuando, la actividad magnética en su superficie también lanza nubes de plasma de rápido movimiento hacia el espacio, llamadas \textit{eyecciones de masa coronal} o CMEs.
+
+Cuando algunas de estas nubes, dirigidas hacia la Tierra, llegan después de recorrer 150 millones de $\km$, causan intensas perturbaciones en el campo magnético terrestre. Desde la década de 1800, estas perturbaciones se han denominado \textit{tormentas magnéticas}, porque los instrumentos en la Tierra pueden medir la intensidad de estas perturbaciones, y estas se asemejan a tormentas en un campo magnético que de otro modo sería muy tranquilo.
+
+Los científicos miden la intensidad de estas tormentas magnéticas en términos del tamaño del cambio que provocan en el campo magnético terrestre. La intensidad del campo magnético terrestre en la superficie es de aproximadamente 0.7 Gauss o 70000 nanoTeslas. Las tormentas magnéticas más intensas pueden cambiar el campo en la superficie en varios por ciento.
+
+\begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{CMEs.jpg}
+        \caption{CMEs: Coronal Mass Ejections}
+        \label{fig:2}
+\end{figure}
+
+Según investigaciones de V. Yurchyshyn, H. Wang y V. Abramenko, publicadas en 2004 en la revista \textit{Space Weather} (vol. 2), la relación entre la perturbación del campo magnético, $\text{Dst}$ (Disturbance Storm Time), y la componente $z$ del campo magnético interestelar, $B_z$, viene dada por:
+
+\begin{equation}
+\text{Dst} = -2.846 + 6.54B_z - 0.118 B_z^2 - 0.002 B_z^3
+\label{eq:1}
+\end{equation}
+
+donde $\text{Dst}$ y $B_z$ se miden en nanoTeslas $\nT$.
+
+En 2004, W. D. Gonzales y sus colegas publicaron un artículo en la \textit{Journal of Atmospheric and Solar Terrestrial Physics}, en el que determinaron una relación entre la velocidad de una eyección de masa coronal solar, $v$, en $\km/\s$, y la intensidad de $\text{Dst}$ en $\nT$ según:
+
+\begin{equation}
+\text{Dst} = 0.00052(0.22v + 340)^2
+\label{eq:2}
+\end{equation}
+
+La relación entre el tiempo de viaje a la Tierra desde el Sol y la velocidad de la CME fue determinada a partir de catálogos de eventos de CME por M. J. Owens y P. J. Cargill en una investigación publicada en 2002 en la \textit{Journal of Geophysical Research} (vol. 107, p. 1050) en términos del tiempo de tránsito en días, $T$, para estas eyecciones de masa coronal y su velocidad, $v$, en $\km/\s$, mediante:
+
+\begin{equation}
+T = -0.0042v + 5.14
+\label{eq:3}
+\end{equation}
+
+También descubrieron que la máxima intensidad del campo magnético interestelar de la CME venía dada por:
+
+\begin{equation}
+B_T = 0.047v + 0.644
+\label{eq:4}
+\end{equation}
+
+\vspace{5mm}
+
+\begin{enumerate}
+	\item A partir de las ecuaciones \eqref{eq:2} y \eqref{eq:3} anteriores, encuentra una función que dé $\text{Dst}$ en términos del tiempo de tránsito de la CME. Escribe el resultado en forma expandida como una ecuación cuadrática.
+
+	\item Suponiendo que $B_z = \frac{B_T}{\sqrt{2}}$, usa las ecuaciones \eqref{eq:1} y \eqref{eq:4} para encontrar una función que dé $\text{Dst}$ en términos de $v$.
+
+	\item A partir de las ecuaciones \eqref{eq:2} y \eqref{eq:4}, encuentra una función que dé Dst en términos de $B_T$.
+\end{enumerate}
+
+\end{problema}
+[10] \cite{NASA_SpaceMathIII}
+
+\begin{problema}
+\textbf{Algunas Reflexiones Intrigantes sobre la Radiación Espacial:} 
+Todos hemos escuchado, desde la escuela primaria, que la \blank afecta a los sistemas vivos al causar mutaciones celulares. 
+Las partículas, como iones de alta velocidad o \blank, impactan en lugares específicos del \blank de una célula, haciendo que esta funcione mal, o \blank y transmitan un \blank a su descendencia. 
+A veces, las mutaciones no son beneficiosas para un organismo, ni para la evolución de su especie. Cuando esto ocurre, puedes sentirte \blank.
+
+Los riesgos de \blank generalmente están relacionados con la cantidad total de exposición a la radiación durante toda la \blank. 
+Sin embargo, los estudios de los \blank aún muestran que hay mucho que aprender sobre cómo exactamente la radiación ejerce su efecto dañino. 
+\blank muy grandes \blank de radiación administradas en un corto período de tiempo parecen no tener el mismo efecto deletéreo que, por ejemplo, una dosis pequeña administrada constantemente durante muchos años.
+
+La Academia Nacional de Ciencias ha estudiado este tema con bastante cuidado a lo largo de los años para encontrar una relación entre los \blank y la exposición a niveles bajos de radiación. 
+Lo que concluyeron fue que obtienes hasta \blank casos de cáncer por cada \blank por cada \blank adicionales de dosis anual por encima de la tasa de fondo \blank. 
+Si una dosis de \blank \blank extra por año añade \blank muertes adicionales por cada \blank, entonces tan solo un \blank adicional por año podría causar cáncer en una persona por cada \blank. 
+Aunque se trata solo de una estimación \blank, si resulta que eres esa "una persona", comprenderás perfectamente el \blank. 
+Por cierto, ningún estudio científico ha demostrado que la radiación tenga un efecto \blank en todos los niveles por debajo de \blank, pero eso es lo que muestra la \blank de la aritmética.
+
+Las regulaciones gubernamentales de seguridad ahora requieren que las personas que trabajan con radiación, como \blank, tecnólogos de medicina nuclear o operadores de plantas de energía nuclear, reciban un límite máximo permisible de dosis de \blank por año por encima de la tasa de fondo \blank. 
+Para ti y para mí, que realizamos trabajo ordinario en una oficina, fábrica o tienda, la dosis máxima aceptable es de 1000 miliRems/año por encima de los 350 miliRem que recibimos cada año de fuentes naturales. 
+Como comparación, si hubieras vivido dentro de 20 millas de la \blank de energía nuclear \blank en el momento de su \blank, tu dosis anual habría sido de aproximadamente \blank \blank/año durante el primer año, disminuyendo lentamente a medida que los \blank en el entorno decaían.
+
+\textit{Extracto de "The 23rd Cycle", Sten Odenwald, Columbia University Press}
+
+\vspace{5mm}
+
+\begin{enumerate}
+    \item $x^{2} - 2x - 3 = 0$
+    \item $x^{2} + 4x - 5 = 0$
+    \item $x^{2} - 3x + 2 = 0$
+    \item $x^{2} - x - 12 = 0$
+    \item $2x^{2} - 12x + 10 = 0$
+    \item $x^{2} - 2x - 24 = 0$
+    \item $x^{2} + 5x + 6 = 0$
+    \item $x^{2} - 9 = 0$
+    \item $2x^{2} + 4x - 30 = 0$
+    \item $3x^{2} + 3x - 6 = 0$
+    \item $x^{2} - 6x - 16 = 0$
+    \item $x^{2} - 3x - 88 = 0$
+    \item $x^{2} - 4x - 21 = 0$
+    \item $x^{2} - x - 30 = 0$
+    \item $x^{2} - 9x - 36 = 0$
+    \item $x^{2} - 16x + 63 = 0$
+    \item $x^{2} + 16x + 63 = 0$
+    \item $x^{2} + 14x + 48 = 0$
+    \item $x^{2} + 19x + 90 = 0$
+    \item $x^{2} + 8x - 33 = 0$
+    \item $x^{2} - 100 = 0$
+    \item $x^{2} - 8x = 0$
+\end{enumerate}
+
+\vspace{5mm}
+
+\begin{table}[H]
+%\centering
+\begin{tabular}{r l}
+\textbf{Número} & \textbf{Palabra} \\
+\hline
+-11 & planta \\
+-10 & 2005 \\
+-9  & Chernobyl \\
+-8  & millón \\
+-7  & odontólogos \\
+-6  & natural \\
+-5  & neutrones \\
+-4  & cáncer \\
+-3  & dosis \\
+-2  & Hiroshima \\
+-1  & radiación \\
+0   & isótopos \\
+1   & milirems \\
+2   & ADN \\
+3   & vida útil \\
+4   & sobrevivir \\
+5   & mutación \\
+6   & alterado \\
+7   & estadístico \\
+8   & fondo \\
+9   & ciego \\
+10  & 1986 \\
+11  & cien \\
+12  & lineal \\
+\end{tabular}
+\end{table}
+
+
+\end{problema}
+[12] \cite{NASA_SpaceMathIII}
+
+
+
 
 \bibliographystyle{plainurl}
 \bibliography{bibliografia} % Nombre del .bib
