@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex templateHomework"] 1763249767.65223 "templateHomework.aux" "templateHomework.bbl" "templateHomework" 1763249770.99002 0
-  "./bibliografia.bib" 1761782875.77406 522 458c89d83e424ff2b854aeb73044fad6 ""
+["bibtex ProblemasAstronomia11"] 1768413568.22866 "ProblemasAstronomia11.aux" "ProblemasAstronomia11.bbl" "ProblemasAstronomia11" 1768493261.35985 0
+  "./bibliografia.bib" 1768411608.31106 367 e8fb7a07ac85eaf189ea936c5688a473 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/urlbst/plainurl.bst" 1675116457 33495 46cfb45e24a877059f9f7e142c7fc61c ""
-  "templateHomework.aux" 1763249770.24489 904 073cdc8800d69a60bdfcd89fdf828e36 "pdflatex"
+  "ProblemasAstronomia11.aux" 1768493260.15951 496 9feadf95acec787bf15fe41e89461d7e "pdflatex"
   (generated)
-  "templateHomework.bbl"
-  "templateHomework.blg"
+  "ProblemasAstronomia11.bbl"
+  "ProblemasAstronomia11.blg"
   (rewritten before read)
-["pdflatex"] 1763249768.24458 "templateHomework.tex" "templateHomework.pdf" "templateHomework" 1763249770.99041 0
+["pdflatex"] 1768493256.63135 "ProblemasAstronomia11.tex" "ProblemasAstronomia11.pdf" "ProblemasAstronomia11" 1768493261.36049 0
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -25,6 +25,7 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1248133631 31809 8670ca339bf94e56da1fc21c80635e2a ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
@@ -192,14 +193,14 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1760400667 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "TidalForce.png" 1761779716.6917 121072 91e96e6c5404a1c48b0f106de5ae4ec5 ""
-  "templateHomework.aux" 1763249770.24489 904 073cdc8800d69a60bdfcd89fdf828e36 "pdflatex"
-  "templateHomework.bbl" 1763249768.23126 469 8114d513717efd06930dcc606f43b14c "bibtex templateHomework"
-  "templateHomework.out" 1763249769.6349 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "templateHomework.tex" 1763146801.39077 2999 034691f66eac89b437cf69f0f27c54e4 ""
+  "ProblemasAstronomia11.aux" 1768493260.15951 496 9feadf95acec787bf15fe41e89461d7e "pdflatex"
+  "ProblemasAstronomia11.bbl" 1768413568.49844 330 185903d30e522ac7b6cb4b6e8fb9ba5e "bibtex ProblemasAstronomia11"
+  "ProblemasAstronomia11.out" 1768493259.30356 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "ProblemasAstronomia11.tex" 1768493254.84092 5985 f46f0f2b81c990a9a1c03c6e22beaabb ""
+  "test.jpg" 1768410545.90011 159684 45c39ff1285955ace7051d95731aed4c ""
   (generated)
-  "templateHomework.aux"
-  "templateHomework.log"
-  "templateHomework.out"
-  "templateHomework.pdf"
+  "ProblemasAstronomia11.aux"
+  "ProblemasAstronomia11.log"
+  "ProblemasAstronomia11.out"
+  "ProblemasAstronomia11.pdf"
   (rewritten before read)
