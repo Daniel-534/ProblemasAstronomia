@@ -1,0 +1,182 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Algebra 2"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "[1.2.9]\n",
+    "$\\textbf{Temperatura de Equilibrio:}$ A medida que un cuerpo absorbe energía que incide sobre su superficie, también emite enería de vuelta al espacio. Cuando la *energía entrante* iguala a la *energía saliente*, el cuerpo mantiene una temperatura constante de *equilibrio*\n",
+    "\n",
+    "Si el cuerpo absorve el $100\\%$ de la energía que incide sobre él, la relación entre energía absorbida en $\\text{W/m}^2$, $F$, y la temperatura de equilibrio medida en $\\text{K}$, $T$, está dada por $$F = 5.7\\times 10^{-8} T^4$$\n",
+    "\n",
+    "*caption* -Encelado.png- Este mapa de temperaturas del satélite Encélado fue creado a partir de los datos infrarrojos de la nave espacial Cassini de la NASA\n",
+    "\n",
+    "1. Un cuerpo humano tiene un área superficial de $2\\text{ m}^2$ y se encuentra a una temperatura de $98.6\\text{ °F}$. ¿Cuál es la potencia total emitida por un ser humano en $\\text{W}$?\n",
+    "\n",
+    "2. La luz solar que incide sobre un cuerpo en la Tierra proporciona $1357\\text{ W/m}^2$. ¿Cuál sería la temperatura, en $\\text{K}$ y $°\\text{C}$, del cuerpo si absorbiera completamente todo este flujo de energía solar?\n",
+    "\n",
+    "3. Un flujo de lava de $2000\\text{ K}$ tiene $10 \\text{ m}$ de ancho y $100\\text{ m}$ de largo. ¿Cuál es la potencia térmica total de esta roca caliente en $\\text{MW}$\n",
+    "\n",
+    "4. Una pieza de aluminio de $2 \\text{ m}$ cuadrados está pintada de modo que absorve solo el $10\\%$ de la energía solar que incide sobre ella (*Albedo*=$0.9$). Si el panel de aluminio está en el exterior de la Estación Espacial Internacional, y el flujo solar en el espacio es de $1357\\text{ W/m}^2$, ¿Cuál será la temperatura de equilibrio, en $\\text{K}$, $°\\text{C}$ y $°\\text{F}$, del panel bajo plena luz solar?\n",
+    "\n",
+    "Fórmulas de conversión: $°\\text{C}=\\text{K}-273$ y $°\\text{F}=\\frac{9}{5}°\\text{C}+32$"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "[1.6.4] \n",
+    "$\\textbf{Estrelllas de Neutrones:}$ Las estrellas de neutrones son todo lo que queda de una estrella masiva que explotó como una supernova. Propuestas por primera vez hace más de 50 años, estos cuerpos densos, con apenas 50 kilómetros de diámetro, contienen tanta masa como todo nuestro Sol, que apenas tiene 1 millón de kilómetros de diámetro.\n",
+    "\n",
+    "Los astrónomos han estudiado docenas de estas estrellas muertas para determinar cuáles pueden ser los rangos de masa de las estrellas de neutrones. Este rango de masa es una pista importante para comprender cómo se ve el interior de estoss cuerpos.\n",
+    "\n",
+    "Al estudiar los rayos X emitidos por las estrellas de neutrones y al encontrar muchas que están en sistemas binarios de estrellas, se han \"pesado\" varias estrellas de neutrones. Cinco de ellas han sido medidas detalladamente para componer los siguientes rangos de masa, donde la masa se da en múltiplos de masas solares ($\\text{M}_{\\odot} = 2\\times 10^{30}\\text{ kg}$):\n",
+    "\n",
+    "*hacer tabla*\n",
+    "Columnas: Fuente de emisión de rayos X, Rango de masa [$\\text{M}_{\\odot}$]\n",
+    "\n",
+    "3U0900-40, $1.2 < M < 2.4$\n",
+    "Centaurus $X-3, 0.7 < M < 4.3$\n",
+    "SMC X-1, $0.8 < M < 1.8$\n",
+    "Hercules X-1 $0.0 < M < 2.3$\n",
+    "\n",
+    "1. ¿Cuál es el punto de intersección de estos límites para las masas de las estrellas de neutrones?\n",
+    "\n",
+    "2. ¿Cuál es el rango de masa permitido para una estrella de neutrones en kilogramos?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "#### Rango de Intesección en masas solares ####\n",
+      "1.2 < M < 1.8\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Punto 1\n",
+    "O3U0 = np.array([1.2, 2.4])\n",
+    "Centaurus = np.array([0.7, 4.3])\n",
+    "Smc = np.array([0.8, 1.8])\n",
+    "Hercules = np.array([0, 2.3])\n",
+    "\n",
+    "rangos = np.array([O3U0, Centaurus, Smc, Hercules])\n",
+    "\n",
+    "ls = np.zeros(4)\n",
+    "rs = np.zeros(4)\n",
+    "\n",
+    "for i in range(4):\n",
+    "    ls[i] = rangos[i][0]\n",
+    "    rs[i] = rangos[i][1]\n",
+    "\n",
+    "l = max(ls)\n",
+    "r = min(rs)\n",
+    "\n",
+    "print(\"#### Rango de Intesección en masas solares ####\")\n",
+    "print(f\"{l} < M < {r}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "#### Rango de Intesección en kg ####\n",
+      "2.4e+30 < M < 3.6e+30\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Punto 2\n",
+    "Msol = 2e30 #kg\n",
+    "\n",
+    "lkg = l*Msol\n",
+    "rkg = r*Msol\n",
+    "\n",
+    "print(\"#### Rango de Intesección en kg ####\")\n",
+    "print(f\"{lkg:.1e} < M < {rkg:.1e}\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "[2.1.1]\n",
+    "$\\textbf{Poder de resolución del telescopio:}$ El tamaño de un espejo de telescopio determina qué tan bien puede resolver detalles en objetos distantes. Los astrónomos siempre están construyendo telescopios más grandes para ayudarles a ver el universo lejano con mayor claridad.\n",
+    "\n",
+    "\n",
+    "1. Esta sencilla función predice la resolución $R(D)$,  en segundos de arco ($\\text{\"}$), de un espejo de telescopio cuyo diámetro, $D$, se da en centímetros:\n",
+    "\n",
+    "$$R(D) = \\frac{10.3}{D} \\text{ \"}$$\n",
+    "\n",
+    "Si el dominio de $R(D)$ abarca desde el tamaño de un ojo humano ($0.5\\text{ cm}$) hasta el diámetro del Telescopio Espacial Hubble ($240 \\text{ cm}$), ¿Cuál es el rango angular de $R(D)$ en segundos de arco?\n",
+    "\n",
+    "2. Sobre qué dominio de la función $R(D)$ la resolución superará 1 segundo de arco?\n",
+    "\n",
+    "3. Complete los números faltantes en la forma tabular de $R(D)$ que se muestra a continuación. Utilice una precisión de dos cifras significativas, dedondeando cuando sea apropiado."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "  "
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
