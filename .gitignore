@@ -1,2 +1,11 @@
 .DS_Store
 .ipynb_checkpoints
+
+# Ignorar todos los files que se hacen al compilar los .tex
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
