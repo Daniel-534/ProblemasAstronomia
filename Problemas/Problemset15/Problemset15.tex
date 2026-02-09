@@ -23,7 +23,7 @@
 % cabecera
 \pagestyle{fancy}
 \fancyhead[l]{Daniel Soto}
-\fancyhead[c]{Problemas de Astronomía \#1}
+\fancyhead[c]{Problemas de Astronomía \#15}
 \fancyhead[r]{\today}
 \fancyfoot[c]{\thepage}
 \renewcommand{\headrulewidth}{0.2pt} % linea horizontal
@@ -56,6 +56,7 @@
 \newcommand{\nm}{\text{nm}}
 \newcommand{\blank}{\rule{2cm}{0.4pt}\xspace}
 \newcommand{\mol}{\text{mol}}
+\newcommand{\W}{\text{W}}
 
 
 
@@ -81,61 +82,107 @@
 \begin{document}
 
 \begin{problema}
-    
+
+Modelos matemáticos detallados del interior del sol se basan en observaciones astronómicas y en nuestro conocimiento de la física de las estrellas. Estos modelos nos permiten explorar muchos aspectos de cómo 'funciona' el sol que están permanentemente ocultos a la vista.    
+
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.7\textwidth]{test.jpg}
-        \caption{Fuerza de marea entre la tierra y la luna}
-        \label{fig:1}
+        \includegraphics[width=0.5\textwidth]{Sun.jpg}
+        \caption{Sol}
+        \label{Sol}
     \end{figure}
 
-    Una fuerza de marea es una diferencia en la fuerza de gravedad entre dos puntos, como en la Figura \ref{fig:1}
+El Modelo Estándar del sol, creado por astrofísicos durante los últimos 50 años, nos permite investigar muchas propiedades por separado. Una de ellas es la densidad del gas caliente en todo el interior. La función a continuación proporciona una fórmula de mejor ajuste, $D(x)$, para la densidad (en $\g/\cm^3$) desde el núcleo ($x=0$) hasta la superficie ($x=1$) y puntos intermedios.
 
-    
-    \begin{equation}
-    a = \frac{2GMd}{R^3}
-    \label{eq:1}
-    \end{equation}
+$$D(x) = 519x^4 - 1630x^3 + 1844x^2 - 889x + 155$$
 
-    \begin{enumerate}
-        \item La ecuación \ref{eq:1} nos permite calcular la aceleraciòn de marea $a$, através de un
-        cuerpo de longitud $d$
-    \end{enumerate}
-    
-    La referencia al libro es la siguiente \cite{algebra2}
+Por ejemplo, en un radio al $30\%$ del camino hacia la superficie, $x = 0.3$ y por lo tanto
+$D(x=0.3) = 14.5 \g/\cm^3$.
+\begin{enumerate}
+	\item ¿Cuál es la densidad estimada del núcleo del sol?
+
+	\item Al $1\%$ más cercano del radio del sol, ¿a qué radio la densidad del sol cae al $50\%$ de su densidad en el núcleo en $x=0$? 
+	
+	\item ¿Cuál es la densidad estimada del sol cerca de su superficie en $x=0.9$ usando esta aproximación polinómica?
+\end{enumerate}
 \end{problema}
-
-
 
 \begin{problema}
-    Aunque solo existen una docena de constantes físicas fundamentales de la naturalez,
-    estas se pueden combinar para definir muchas otras constantes básicas en física, 
-    química y astronomía.
+El cohete Ares-V, que está siendo desarrollado actualmente por la NASA, pesará 3,700 toneladas en el despegue y podrá transportar 75 toneladas de suministros, equipos y hasta 4 astronautas a la luna. 
 
-    \begin{table}[H]
-    \centering
-    \begin{tabular}{|c|c|c|}
-    \hline
-    Símbolo & Nombre & Valor \\
-    \hline
-    $c$ & Velocidad de la Luz & $2.9979\times 10^{10} \text{ cm/s}$\\
-    \hline
-    $h$ & Constante de Planck & $6.6262\times 10^{-27} \text{ erg}\cdot \text{s}$\\
-    \hline
-    $m$ & Masa del Electrón & $9.1095\times 10^{-28} \text{ g}$\\
-    \hline
-    $e$ & Carga del Electrón & $4.80325 \times 10^{-10} \text{esu}$\\
-    \hline
-    $G$ & Constante de Gravitación & $6.6732 \times 10^{-8} \text{dyn} \cdot \text{cm}^2 \text{gm}^{-2}$\\
-    \hline
-    $M$ & Masa del Protón & $1.6726 \times 10^{-24} \text{g}$\\
-    \hline
-    \end{tabular}
-    \caption{Constantes físicas}
-    \label{tab:1}
-    \end{table}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{AresVSaturnV.png}
+        \caption{Ares V y Saturno V}
+        \label{AresVSaturnV}
+    \end{figure}
+
+Como vehículo de lanzamiento de múltiples propósitos, también podrá lanzar cargas útiles científicas complejas y muy pesadas a Marte y más allá. Para hacer esto, los cohetes de la Etapa Central y los Cohetes de Combustible Sólido (SRBs) entregan un empuje combinado de 47 millones de Newtons. Para el cohete, definamos:
+
+$T(t) = \text{empuje en el tiempo t}$
+$m(t) = \text{masa en el tiempo t}$
+$a(t) = \text{aceleración en el tiempo t}$
+
+de modo que:
+
+$a(t) = \frac{T(t)}{m(t)}$
+
+El lanzamiento toma $200$ segundos. Supongamos que en el intervalo de tiempo $[0,200]$, $T(t)$ y $m(t)$ se dan aproximadamente de la siguiente manera:
+
+$$T(x) = 8x^3 - 16x^2 - x^4 + 47$$
+
+$$m(x) = 35 - x^2$$
+
+donde $t = 40x$ 
+
+Donde hemos usado un cambio de variable, de $t$ a $x$ para simplificar la forma de las ecuaciones.
+
+\begin{enumerate}
+	\item Grafica la curva de empuje $T(x)$ y la curva de masa $m(x)$ y encuentra todos los mínimos, máximos y puntos de inflexión en el intervalo $[0, 5]$.
+
+	\item Grafica la curva de aceleración $a(x)$ y encuentra todos los máximos, mínimos y puntos de inflexión en el intervalo $[0, 5]$.
+
+	\item ¿Para qué valor de $x$ la aceleración del cohete será máxima en el intervalo $[0, 5]$? ¿Cuántos segundos después del lanzamiento será esto?
+\end{enumerate}
+
 \end{problema}
 
+\begin{problema}
+
+Desde la década de 1930, los físicos saben que el "vacío" del espacio no está vacío. Contiene partículas y energía que aparecen y desaparecen, y no pueden ser detectadas directamente. Momentos después del Big Bang, esta energía del vacío fue lo suficientemente grande como para que, por sí misma, pudiera hacer que el universo se expandiera billones de veces en tamaño. Los astrónomos llaman a esto Inflación Cosmológica.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{BigBang.png}
+        \caption{Big Bang}
+        \label{BigBang}
+    \end{figure}
+
+
+Varios estudios teóricos del estado de vacío han centrado su atención en una función polinómica:
+
+$$V(x) = \frac{L}{6} x^4 - m^2 x^2$$
+
+Esta función, llamada Potencial de Coleman-Weinberg, permite a los físicos calcular la energía del estado de vacío, $V(x)$, en términos de la masa, $x$, de un nuevo tipo de partícula aún por descubrir llamada el X-Bosón.
+
+\begin{enumerate}
+	\item Factoriza $V(x)$ y determina la ubicación de todas las intersecciones con el eje x para el caso general donde $m$ y $L$ no están especificados.
+
+	\item Para el caso específico de $V(x)$ donde $m=5$ y $L=6$, determina sus intersecciones con el eje x.
+
+	\item Grafica $V(x)$ para $m=5$ y $L=6$ trazando una selección de puntos entre las intersecciones con el eje x.
+
+	\item ¿Cuál es el comportamiento final (end behavior) de $V(x)$ para los valores seleccionados de $m$ y $L$?
+
+	\item Usa una calculadora gráfica para encontrar el máximo relativo y los mínimos relativos para $V(x)$ con $m=5$ y $L=6$.
+\end{enumerate}
+
+
+\end{problema}
+
+
+
+\cite{algebra2}
 \bibliographystyle{plainurl}
 \bibliography{bibliografia} % Nombre del .bib
 
